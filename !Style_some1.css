@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image:url(NiGambar/NiGambar14.jpg) ;
+    background-position: -100px 0;
+    font-family: sans-serif;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    color: #483C32;
+}
+
+.dark-mode {
+    background-image: url(NiGambar/NiGambar15.png);
+    background-size:contain;
+    color: beige;
+}
+
+.dark-mode .begron {
+    background-color: #5f4631;
+}
+
+.dark-mode .bar {
+    color: beige;
+}
+
+.dark-mode .bar a {
+    color: beige;
+}
+
+.dark-mode .bar a:hover {
+    color: #ffa500;
+    background-color: #ffe8d5;
+}
+
+.dark-mode .bar a:active {
+    color: bisque;
+    background-color: #ffa500;
+}
+
+.dark-mode .begron .link a {
+    text-decoration: none;
+    color: beige;
+}
+.dark-mode .begron .link a:hover {
+    text-decoration: line-through;
+    color: #ffa500;
+}
+
+.dark-mode .homepic {
+    background-image: url(NiGambar/NiGambar16.png);
+    background-position: 0 0;
+    border-top: 5px solid rgb(221, 122, 0);
+    border-bottom: 5px solid rgb(221, 120, 221);
+}
+
+.dark-mode footer {
+    background-color: rgb(221, 120, 221);
+}
+
+.dark-mode .begron .tabele-rhythm tr td {
+    /* padding: 10px; */
+    border: 1px solid black;
+}
+.dark-mode .begron .tabele-gameplay tr td {
+    /* padding: 10px; */
+    border: 1px solid black;
+}
+.dark-mode .begron .sosmed tr td {
+    border: 1px solid black;
+}
+
+.dark-mode .begron .bar .ol .li button {
+    background-color: #ffddc2;
+    border: 3px double #5f465f;
+    color: #5f465f;
+}
+
+.kontent {
+    margin-top: 15px;
+    line-height: 35px;
+}
+
+.kontent .intro {
+    font-size: 20px;
+    font-weight: lighter;
+    padding-bottom: 15px;
+}
+
+.kontent ol {
+    padding-left: 30px;
+}
+
+.kontent #emot p {
+    font-size: 1px;
+}
+
+.begron {
+    margin: auto;
+    width: 1000px;
+    background-color: #ffddc2;
+    padding: 25px;
+}
+
+.begron .bar .ol .li button {
+    background-color: #5f4631;
+    border: 3px double #ffddc2;
+    color: #ffddc2;
+}
+
+.gambar1 {
+    height: auto;
+    width: 50px;
+    float: right;
+    margin: 10px 0;
+    margin-right: 10px;
+}
+
+.bar {
+    color: orange;
+    line-height: 20px;
+}
+
+.bar ol li {
+    display: inline-table;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    float: right;
+    text-align: center;
+    font-size: small;
+    font-weight: 700;
+}
+
+.bar ol label{
+    float: right;
+    margin-top: 30px;
+    font-size: small;
+    margin-right: 10px;
+}
+
+.bar select {
+    float: right;
+    margin-top: 30px;
+    color: #ffa500;
+    background-color: #ffddc2;
+    border: none;
+    outline: none;
+}
+
+.bar a {
+    text-decoration: none;
+    color:#ffa500
+}
+
+.bar a:hover {
+    color: #483C32;
+    background-color: beige;
+}
+
+.bar a:active {
+    color: orangered;
+    background-color: #483C32;
+}
+
+.ol .li li {
+    margin-top: 20px;
+}
+
+.ol .li li {
+    margin-top: 20px;
+}
+
+.ol .some1 li {
+    float: left;
+}
+.bar a img {
+    float: left;
+}
+.begron .link a {
+    text-decoration: none;
+    color: #483C32;
+}
+.begron .link a:hover {
+    text-decoration: line-through;
+    color: orangered;
+}
+
+.homepic {
+    background-image: url(NiGambar/NiGambar6.jpg);
+    height: 320px;
+    width: 1050px;
+    margin: 0px 130px;
+    background-position: 0 -130px;
+    background-size: cover;
+    border-top: 5px solid lightblue;
+    border-bottom: 5px solid rgb(255, 202, 105);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 1050px;
+    height: 30px;
+    background-color: rgb(255, 202, 105);
+}
+
+.begron .tabele-rhythm tr td {
+    /* padding: 10px; */
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.begron .tabele-rhythm tr td img {
+    width: 511px;
+    height: 217px;
+    padding-top: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 7px;
+}
+
+.begron .tabele-gameplay tr td {
+    /* padding: 10px; */
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+
+.begron .tabele-gameplay tr th img {
+    width: 511px;
+    height: 270px;
+    padding-top: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 7px;
+}
+
+.begron .tabele-curhat tr td ol{
+    padding: 30px;
+}
+
+.begron .tabele-curhat tr th{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.begron .sosmed tr td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-radius: 5px;
+    padding: 20px;
+    width: 10%;
+    text-align: center;
+}
